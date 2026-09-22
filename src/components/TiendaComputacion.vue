@@ -1,12 +1,13 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
 import { useAuthStore } from '../stores/auth'
-import type { Categoria, Producto } from '../types/Producto'
+import type { Categoria, Producto } from '../types/producto'
 import jsPDF from 'jspdf'
 import autoTable from 'jspdf-autotable'
 
 const authStore = useAuthStore()
-const API_URL = import.meta.env.VITE_API_BASE_URL
+
+const API_URL = 'http://localhost:8080/tienda_api'
 
 const categorias = ref<Categoria[]>([])
 const productos = ref<Producto[]>([])

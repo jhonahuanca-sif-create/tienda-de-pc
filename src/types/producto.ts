@@ -10,3 +10,16 @@ export interface Producto {
   stock: number
   categoria: string
 }
+export interface Categoria {
+  id: number
+  nombre: string
+}
+
+export interface Producto {
+  id: number
+  nombre: string
+  precio: number
+  stock: number
+  categoria: string
+  imagen?: string
+}
