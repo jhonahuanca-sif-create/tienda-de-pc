@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <router-link to="/" class="navbar-brand fw-bold">🖥️ TechStore PC</router-link>
+      <router-link to="/" class="navbar-brand fw-bold"> TechStore PC</router-link>
       <div class="navbar-nav ms-auto">
         <router-link to="/" class="nav-link">Inicio</router-link>
         <router-link to="/catalogo" class="nav-link">Catálogo</router-link>

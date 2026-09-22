@@ -68,7 +68,7 @@ onMounted(cargarDatos)
 <template>
   <div class="container my-4">
     <header class="d-flex justify-content-between align-items-center mb-4">
-      <h2 class="fw-bold text-dark">🖥️ Tienda de Computación - Panel de Control</h2>
+      <h2 class="fw-bold text-dark"> Tienda de Computación - Panel de Control</h2>
       <button @click="exportarPDF" class="btn btn-danger shadow-sm">📄 Exportar PDF</button>
     </header>
 
